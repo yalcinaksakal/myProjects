@@ -6,6 +6,8 @@ const navItems = document.querySelector(".nav-items");
 
 const projectPhotos = document.querySelector(".projects-showcase");
 
+let numberofObservers = 0;
+
 function toggleNav() {
   menuBars.classList.toggle("change");
   overlay.classList.toggle("overlay-slide-right");
@@ -38,13 +40,15 @@ function generateEls() {
     pNameEl.append(aProjctEl, pEl);
 
     //project-photo
-    const imgEl = document.createElement("img");
-    imgEl.setAttribute("src", `./imgs/${project.img}`);
-    imgEl.setAttribute("alt", project.name);
+
+    //create spining loader div as a placeholder until images loaded
+    const div = document.createElement("div");
+    div.classList.add(`observe`);
+
     const aForImgEL = document.createElement("a");
     aForImgEL.setAttribute("href", project.app);
     aForImgEL.setAttribute("target", "_blank");
-    aForImgEL.appendChild(imgEl);
+    aForImgEL.appendChild(div);
     const figureEl = document.createElement("figure");
     figureEl.classList.add("project-photo");
     figureEl.appendChild(aForImgEL);
@@ -56,6 +60,20 @@ function generateEls() {
   });
 }
 
+//load images when they are observed
+function imgloader(observedEl, imgNo) {
+  console.log(observedEl.parentElement);
+  observedEl.classList.add("loader");
+  const imgEl = document.createElement("img");
+  imgEl.setAttribute("src", `./imgs/${arrProjects[imgNo].img}`);
+  imgEl.setAttribute("alt", arrProjects[imgNo].name);
+
+  imgEl.onload = () => {
+    observedEl.parentElement.appendChild(imgEl);
+    observedEl.parentElement.removeChild(observedEl);
+  };
+}
+
 //event listeners
 menuBars.addEventListener("click", toggleNav);
 navItems.addEventListener("click", e => {
@@ -64,3 +82,20 @@ navItems.addEventListener("click", e => {
 
 //onload
 generateEls();
+
+//intersection observers
+const myObserver = new IntersectionObserver(elements => {
+  if (elements[0].intersectionRatio !== 0) {
+    //console.log(" The element is in view!");
+    imgloader(elements[0].target, numberofObservers);
+    myObserver.unobserve(observedEls[numberofObservers]);
+    numberofObservers++;
+    if (observedEls[numberofObservers])
+      myObserver.observe(observedEls[numberofObservers]);
+  } else {
+    //console.log("The element is out of view");
+  }
+});
+const observedEls = document.querySelectorAll(".observe");
+
+myObserver.observe(observedEls[0]);
