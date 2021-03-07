@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 :root {
   --main-color: white;
-  --second-color: #5c79ff;
+  --second-color: #264ee0;
 }
 html {
   box-sizing: border-box;
@@ -162,7 +162,7 @@ body {
   width: 85%;
   height: 75vh;
   margin: 80px auto 5px auto;
-  background: rgb(213, 212, 212);
+  background: rgb(255, 255, 255);
   box-shadow: 0 10px 20px 5px rgb(41, 41, 41);
   border-radius: 15px;
   display: flex;
@@ -188,9 +188,9 @@ body {
 .projects-showcase li {
   display: block;
   float: left;
-  padding: 3px;
+  padding: 7px;
   margin: 0;
-  width: 32%;
+  width: 31%;
 }
 .project-photo {
   border-radius: 10px;
@@ -199,18 +199,20 @@ body {
   width: 100%;
   overflow: hidden;
   background-color: black;
+  box-shadow: 0 2px 5px 2px rgb(41, 41, 41);
 }
 
 .project-photo img {
-  opacity: 0.8;
+  opacity: 0.6;
   width: 100%;
   height: auto;
-  transform: scale(1.05);
+  transform: scale(1.25);
   transition: all 0.3s;
 }
 
 .project-photo img:hover {
-  transform: scale(0.9);
+  filter: brightness(120%);
+  transform: scale(1.1);
   opacity: 1;
 }
 
@@ -257,12 +259,19 @@ p {
   border-radius: 5px;
   direction: rtl;
 }
+
+/* media queires */
 @media screen and (max-width: 750px) {
   .projects-showcase li {
     width: 47%;
   }
 }
 
+@media screen and (max-width: 580px) {
+  .projects-showcase li {
+    width: 45%;
+  }
+}
 @media screen and (max-width: 500px) {
   .projects-showcase li {
     width: 90%;

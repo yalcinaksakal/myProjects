@@ -1,44 +1,114 @@
-Basic information about your country and its neighbors
-https://github.com/yalcinaksakal/whereami
+Calculator
+https://github.com/yalcinaksakal/calculator
+https://yalcinaksakal.github.io/calculator/
+1calculator.png
+
+Drag and drop
+https://github.com/yalcinaksakal/drag-n-drop
+https://kanban-board100.netlify.app/
+2dragAndDrop.png
+
 Dice game
+https://github.com/yalcinaksakal/dicer
 https://dicer100.netlify.app/
+3dicer.png
+
 Recipe App (MCV architecture, publisher-subscriber pattern)
+https://github.com/yalcinaksakal/Jason-s-forkify-app
 https://jasonsforkify.netlify.app/
-Random quotes
-https://quoter100.netlify.app/
-Responsive basic website
-https://justfood.netlify.app/
-Infinite scroll of images from unsplash
-https://yalcinaksakal.github.io/infinite-images/
-Picture in picture app
-https://pip100.netlify.app/
-Random joke teller app
-https://joker100.netlify.app/
-Dark and light mode of a website
-https://darklight100.netlify.app/
-Adding animations from AOS to a template website
-https://yalcinaksakal.github.io/animated-template/
-Animated navigation bar for a personal website
-https://yalcinaksakal.github.io/animated-Nav/
+
 Music player web app
+https://github.com/yalcinaksakal/music-player
 https://yalcinaksakal.github.io/music-player/
-Countdowns to and stores a specific date
+
+Countdown to a specific date
+https://github.com/yalcinaksakal/countdown
 https://yalcinaksakal.github.io/countdown/
-Stores bookmarks web app
+
+Bookmarks web app
+https://github.com/yalcinaksakal/bookmarks
 https://bookmarks100.netlify.app/
-Openmaps and leaflet lib is used to store locally pos and infos of workouts
-https://mapty100.netlify.app/
+
 Video player web app
+https://github.com/yalcinaksakal/video-player
 https://yalcinaksakal.github.io/video-player/
+
 A basic signup page
+https://github.com/yalcinaksakal/signUp
 https://yalcinaksakal.github.io/signUp/
+
 Spock rock game
+https://github.com/yalcinaksakal/spock-rock-game
 https://yalcinaksakal.github.io/spock-rock-game/
-Flex-box sample
-https://flex-box-ex.netlify.app/
+
+Dark and light mode
+https://github.com/yalcinaksakal/darkLight
+https://darklight100.netlify.app/
+
 Explore NASA images
+https://github.com/yalcinaksakal/NASA-images-api
 https://yalcinaksakal.github.io/NASA-images-api/
+
 Math game
+https://github.com/yalcinaksakal/Math-game
 https://yalcinaksakal.github.io/Math-game/
+
+Random quotes
+https://github.com/yalcinaksakal/quoter
+https://quoter100.netlify.app/
+
+Responsive basic website
+https://github.com/yalcinaksakal/first-website-design
+https://justfood.netlify.app/
+
+Infinite scroll of images
+https://github.com/yalcinaksakal/infinite-images
+https://yalcinaksakal.github.io/infinite-images/
+
+Picture in picture app
+https://github.com/yalcinaksakal/PiP
+https://pip100.netlify.app/
+
+Joke teller app
+https://github.com/yalcinaksakal/joke-teller
+https://joker100.netlify.app/
+
+Geolocation and country info
+https://github.com/yalcinaksakal/whereami
+https://whereami100.netlify.app/
+
+Splash page
+https://github.com/yalcinaksakal/splash-page
+https://yalcinaksakal.github.io/splash-page/
+
+Flex-box sample
+https://github.com/yalcinaksakal/flexbox-ex
+https://flex-box-ex.netlify.app/
+
+Workouts (Openmaps and leaflet)
+https://github.com/yalcinaksakal/mapty
+https://mapty100.netlify.app/
+
+Animated navigation bar
+https://github.com/yalcinaksakal/animated-Nav
+https://yalcinaksakal.github.io/animated-Nav/
+
+Adding animations from AOS
+https://github.com/yalcinaksakal/animated-template
+https://yalcinaksakal.github.io/animated-template/
+
+Rotating logo
+https://github.com/yalcinaksakal/rotating-logo
+https://logo100.netlify.app/
+
+Basic blog
+https://github.com/yalcinaksakal/basic-blog
+https://yalcinaksakal.github.io/basic-blog/
+
 My solutions to codewars and leetcode
 https://github.com/yalcinaksakal/codewars
+https://github.com/yalcinaksakal/codewars
+
+Promise combinators basics
+https://github.com/yalcinaksakal/promise-combinators-basics
+https://github.com/yalcinaksakal/promise-combinators-basics
