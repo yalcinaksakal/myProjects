@@ -1,31 +1,10 @@
+import { arrProjects } from "./projects.js";
+
 const menuBars = document.getElementById("menu-bars");
 const overlay = document.getElementById("overlay");
 const navItems = document.querySelector(".nav-items");
 
 const projectPhotos = document.querySelector(".projects-showcase");
-
-const arrProjects = [
-  {
-    name: "Calculator",
-    github: "https://github.com/yalcinaksakal/calculator",
-    app: "https://yalcinaksakal.github.io/calculator/",
-    img: "1calculator.png",
-  },
-
-  {
-    name: "Drag and drop",
-    github: "https://github.com/yalcinaksakal/drag-n-drop",
-    app: "https://kanban-board100.netlify.app/",
-    img: "2dragAndDrop.png",
-  },
-
-  {
-    name: "Dice game",
-    github: "https://github.com/yalcinaksakal/dicer",
-    app: "https://dicer100.netlify.app/",
-    img: "3dicer.png",
-  },
-];
 
 function toggleNav() {
   menuBars.classList.toggle("change");
@@ -77,40 +56,11 @@ function generateEls() {
   });
 }
 
-function readTextFile(file) {
-  var rawFile = new XMLHttpRequest();
-  rawFile.open("GET", file, false);
-  rawFile.onreadystatechange = function () {
-    if (rawFile.readyState === 4) {
-      if (rawFile.status === 200 || rawFile.status == 0) {
-        const listOfProjects = [];
-        var allText = rawFile.responseText;
-        let lengthAllText = allText.match(/\n/g).length;
-        let key, val;
-        while (lengthAllText) {
-          val = allText.slice(0, allText.indexOf("\n")).trim();
-          allText = allText.slice(allText.indexOf("\n") + 1);
-          key = allText.slice(0, allText.indexOf("\n")).trim();
-          allText = allText.slice(allText.indexOf("\n") + 1);
-          if (key) listOfProjects.push([key, val]);
-          lengthAllText--;
-          lengthAllText--;
-        }
-
-        console.log(listOfProjects);
-      }
-    }
-  };
-  rawFile.send(null);
-}
-
 //event listeners
 menuBars.addEventListener("click", toggleNav);
 navItems.addEventListener("click", e => {
   if (e.target.closest("a")) toggleNav();
 });
-
-//readTextFile("./projects.txt");
 
 //onload
 generateEls();

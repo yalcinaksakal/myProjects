@@ -2,113 +2,111 @@ Calculator
 https://github.com/yalcinaksakal/calculator
 https://yalcinaksakal.github.io/calculator/
 1calculator.png
-
 Drag and drop
 https://github.com/yalcinaksakal/drag-n-drop
 https://kanban-board100.netlify.app/
 2dragAndDrop.png
-
 Dice game
 https://github.com/yalcinaksakal/dicer
 https://dicer100.netlify.app/
 3dicer.png
-
-Recipe App (MCV architecture, publisher-subscriber pattern)
+Recipe App (MCV, pubSubs)
 https://github.com/yalcinaksakal/Jason-s-forkify-app
 https://jasonsforkify.netlify.app/
-
+4recipeApp.png
 Music player web app
 https://github.com/yalcinaksakal/music-player
 https://yalcinaksakal.github.io/music-player/
-
+5musicPlayer.png
 Countdown to a specific date
 https://github.com/yalcinaksakal/countdown
 https://yalcinaksakal.github.io/countdown/
-
+6countDown.png
 Bookmarks web app
 https://github.com/yalcinaksakal/bookmarks
 https://bookmarks100.netlify.app/
-
+7bookmarks.png
 Video player web app
 https://github.com/yalcinaksakal/video-player
 https://yalcinaksakal.github.io/video-player/
-
+8videoPlayer.png
 A basic signup page
 https://github.com/yalcinaksakal/signUp
 https://yalcinaksakal.github.io/signUp/
-
+9signUp.png
 Spock rock game
 https://github.com/yalcinaksakal/spock-rock-game
 https://yalcinaksakal.github.io/spock-rock-game/
-
+10spockRockGame.png
 Dark and light mode
 https://github.com/yalcinaksakal/darkLight
 https://darklight100.netlify.app/
-
+11darkLightMode.png
 Explore NASA images
 https://github.com/yalcinaksakal/NASA-images-api
 https://yalcinaksakal.github.io/NASA-images-api/
-
+12NASAapi.png
 Math game
 https://github.com/yalcinaksakal/Math-game
 https://yalcinaksakal.github.io/Math-game/
-
+13mathGame.png
 Random quotes
 https://github.com/yalcinaksakal/quoter
 https://quoter100.netlify.app/
-
+14quoter.png
 Responsive basic website
 https://github.com/yalcinaksakal/first-website-design
 https://justfood.netlify.app/
-
+15website.png
 Infinite scroll of images
 https://github.com/yalcinaksakal/infinite-images
-https://yalcinaksakal.github.io/infinite-images/
-
+https://infinite-images100.netlify.app/
+16infiniteImages.png
 Picture in picture app
 https://github.com/yalcinaksakal/PiP
 https://pip100.netlify.app/
-
+17PiP.png
 Joke teller app
 https://github.com/yalcinaksakal/joke-teller
 https://joker100.netlify.app/
-
+18jokeTeller.png
 Geolocation and country info
 https://github.com/yalcinaksakal/whereami
 https://whereami100.netlify.app/
-
+19whereAmI.png
 Splash page
 https://github.com/yalcinaksakal/splash-page
 https://yalcinaksakal.github.io/splash-page/
-
+20splashPage.png
 Flex-box sample
 https://github.com/yalcinaksakal/flexbox-ex
 https://flex-box-ex.netlify.app/
-
-Workouts (Openmaps and leaflet)
+21flexEg.png
+Workouts (Openmaps/Leaflet)
 https://github.com/yalcinaksakal/mapty
 https://mapty100.netlify.app/
-
+22mapty.png
 Animated navigation bar
 https://github.com/yalcinaksakal/animated-Nav
 https://yalcinaksakal.github.io/animated-Nav/
-
+23animatedNav.png
 Adding animations from AOS
 https://github.com/yalcinaksakal/animated-template
 https://yalcinaksakal.github.io/animated-template/
-
+24animatedWebTemplate.png
 Rotating logo
 https://github.com/yalcinaksakal/rotating-logo
 https://logo100.netlify.app/
-
+25rotatingLogo.png
 Basic blog
 https://github.com/yalcinaksakal/basic-blog
 https://yalcinaksakal.github.io/basic-blog/
-
-My solutions to codewars and leetcode
+26blog.png
+Codewars and leetcode
 https://github.com/yalcinaksakal/codewars
 https://github.com/yalcinaksakal/codewars
-
+27codewars.png
 Promise combinators basics
 https://github.com/yalcinaksakal/promise-combinators-basics
 https://github.com/yalcinaksakal/promise-combinators-basics
+28promiseCombinators.png
