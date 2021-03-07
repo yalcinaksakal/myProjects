@@ -1,0 +1,44 @@
+Basic information about your country and its neighbors
+https://github.com/yalcinaksakal/whereami
+Dice game
+https://dicer100.netlify.app/
+Recipe App (MCV architecture, publisher-subscriber pattern)
+https://jasonsforkify.netlify.app/
+Random quotes
+https://quoter100.netlify.app/
+Responsive basic website
+https://justfood.netlify.app/
+Infinite scroll of images from unsplash
+https://yalcinaksakal.github.io/infinite-images/
+Picture in picture app
+https://pip100.netlify.app/
+Random joke teller app
+https://joker100.netlify.app/
+Dark and light mode of a website
+https://darklight100.netlify.app/
+Adding animations from AOS to a template website
+https://yalcinaksakal.github.io/animated-template/
+Animated navigation bar for a personal website
+https://yalcinaksakal.github.io/animated-Nav/
+Music player web app
+https://yalcinaksakal.github.io/music-player/
+Countdowns to and stores a specific date
+https://yalcinaksakal.github.io/countdown/
+Stores bookmarks web app
+https://bookmarks100.netlify.app/
+Openmaps and leaflet lib is used to store locally pos and infos of workouts
+https://mapty100.netlify.app/
+Video player web app
+https://yalcinaksakal.github.io/video-player/
+A basic signup page
+https://yalcinaksakal.github.io/signUp/
+Spock rock game
+https://yalcinaksakal.github.io/spock-rock-game/
+Flex-box sample
+https://flex-box-ex.netlify.app/
+Explore NASA images
+https://yalcinaksakal.github.io/NASA-images-api/
+Math game
+https://yalcinaksakal.github.io/Math-game/
+My solutions to codewars and leetcode
+https://github.com/yalcinaksakal/codewars
