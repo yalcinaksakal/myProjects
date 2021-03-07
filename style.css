@@ -261,6 +261,15 @@ p {
 }
 
 /* media queires */
+@media screen and (max-width: 950px) {
+  .project-name p {
+    font-size: 10px;
+  }
+  .project-name i {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .projects-showcase li {
     width: 47%;
@@ -272,7 +281,7 @@ p {
     width: 45%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   .projects-showcase li {
     width: 90%;
     margin: 10px 5px;
@@ -285,5 +294,12 @@ p {
   .bar3 {
     width: 30px;
     height: 2px;
+  }
+
+  .project-name p {
+    font-size: 15px;
+  }
+  .project-name i {
+    font-size: 30px;
   }
 }
