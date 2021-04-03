@@ -62,7 +62,6 @@ function generateEls() {
 
 //load images when they are observed
 function imgloader(observedEl, imgNo) {
-  console.log(observedEl.parentElement);
   observedEl.classList.add("loader");
   const imgEl = document.createElement("img");
   imgEl.setAttribute("src", `./imgs/${arrProjects[imgNo].img}`);
@@ -99,3 +98,4 @@ const myObserver = new IntersectionObserver(elements => {
 const observedEls = document.querySelectorAll(".observe");
 
 myObserver.observe(observedEls[0]);
+

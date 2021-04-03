@@ -1,6 +1,36 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    name: "Dijkstra",
+    github: "https://github.com/yalcinaksakal/dijkstra",
+    app: "https://yalcinaksakal.github.io/dijkstra/",
+    img: "dijkstra.png",
+  },
+  {
+    name: "Tree",
+    github: "https://github.com/yalcinaksakal/Tree",
+    app: "https://yalcinaksakal.github.io/Tree/",
+    img: "tree.png",
+  },
+  {
+    name: "Egger Game",
+    github: "https://github.com/yalcinaksakal/egger",
+    app: "https://egger.netlify.app/",
+    img: "egger.jpg",
+  },
+  {
+    name: "Pong Game",
+    github: "https://github.com/yalcinaksakal/pong-game",
+    app: "https://yalcinaksakal.github.io/pong-game/",
+    img: "pong.png",
+  },
+  {
+    name: "Venture",
+    github: "https://github.com/yalcinaksakal/venture",
+    app: "https://yalcinaksakal.github.io/venture/",
+    img: "venture.jpg",
+  },
+  {
     name: "Calculator",
     github: "https://github.com/yalcinaksakal/calculator",
     app: "https://yalcinaksakal.github.io/calculator/",
@@ -24,6 +54,13 @@ export const arrProjects = [
     app: "https://jasonsforkify.netlify.app/",
     img: "4recipeApp.png",
   },
+  {
+    name: "Paint Clone",
+    github: "https://github.com/yalcinaksakal/paintClone",
+    app: "https://yalcinaksakal.github.io/paintClone/",
+    img: "paintClone.png",
+  },
+
   {
     name: "Music player web app",
     github: "https://github.com/yalcinaksakal/music-player",
