@@ -19,7 +19,7 @@ function generateEls() {
     const aEl = document.createElement("a");
     aEl.setAttribute("href", project.app);
     aEl.setAttribute("target", "_blank");
-    aEl.textContent = project.name;
+    aEl.textContent = `${project.name}${project.type ? " (React)" : ""}`;
     const liEl = document.createElement("li");
     liEl.appendChild(aEl);
     navItems.appendChild(liEl);
@@ -28,7 +28,13 @@ function generateEls() {
 
     //project-name
     const iEl = document.createElement("i");
-    iEl.classList.add("fab", "fa-github");
+    if (project.type) {
+      iEl.classList.add("fab", "fa-react");
+      iEl.style.color = "dodgerblue";
+    } else {
+      iEl.classList.add("fab", "fa-js-square");
+      iEl.style.color = "#cbb61b";
+    }
     const aProjctEl = document.createElement("a");
     aProjctEl.setAttribute("href", project.github);
     aProjctEl.setAttribute("target", "_blank");
@@ -98,4 +104,3 @@ const myObserver = new IntersectionObserver(elements => {
 const observedEls = document.querySelectorAll(".observe");
 
 myObserver.observe(observedEls[0]);
-

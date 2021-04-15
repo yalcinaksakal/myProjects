@@ -1,6 +1,13 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "react",
+    name: "To do list",
+    github: "https://github.com/yalcinaksakal/ToDoList",
+    app: "https://todolist1000.netlify.app/",
+    img: "todolist.jpg",
+  },
+  {
     name: "Dijkstra",
     github: "https://github.com/yalcinaksakal/dijkstra",
     app: "https://yalcinaksakal.github.io/dijkstra/",
@@ -12,6 +19,7 @@ export const arrProjects = [
     app: "https://yalcinaksakal.github.io/Tree/",
     img: "tree.png",
   },
+
   {
     name: "Egger Game",
     github: "https://github.com/yalcinaksakal/egger",
@@ -27,7 +35,7 @@ export const arrProjects = [
   {
     name: "Venture",
     github: "https://github.com/yalcinaksakal/venture",
-    app: "https://yalcinaksakal.github.io/venture/",
+    app: "https://venture100.netlify.app/",
     img: "venture.jpg",
   },
   {
