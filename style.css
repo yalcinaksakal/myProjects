@@ -100,7 +100,7 @@ body {
   transform: scale(1.1);
 }
 .main-container h1:hover > a {
-  color: var(--second-color);
+  color: rgb(17, 235, 24);
 }
 
 .menu-bars:hover > .bar1,
