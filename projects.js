@@ -1,13 +1,6 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
-    type: "react",
-    name: "To do list",
-    github: "https://github.com/yalcinaksakal/ToDoList",
-    app: "https://todolist1000.netlify.app/",
-    img: "todolist.jpg",
-  },
-  {
     name: "Dijkstra",
     github: "https://github.com/yalcinaksakal/dijkstra",
     app: "https://yalcinaksakal.github.io/dijkstra/",
@@ -18,6 +11,55 @@ export const arrProjects = [
     github: "https://github.com/yalcinaksakal/Tree",
     app: "https://yalcinaksakal.github.io/Tree/",
     img: "tree.png",
+  },
+  {
+    type: "react",
+    name: "Meal Order",
+    github: "https://github.com/yalcinaksakal/MealOrder",
+    app: "https://meal-order100.netlify.app/",
+    img: "meal.jpg",
+  },
+  {
+    type: "react",
+    name: "Expenses",
+    github: "https://github.com/yalcinaksakal/expenses",
+    app: "https://expenses100.netlify.app/",
+    img: "expenses.jpg",
+  },
+  {
+    type: "react",
+    name: "Reducer, context ex.",
+    github: "https://github.com/yalcinaksakal/useEffect-Context-Reducers",
+    app: "https://reducer-example100.netlify.app/",
+    img: "login.jpg",
+  },
+  {
+    type: "react",
+    name: "To do list",
+    github: "https://github.com/yalcinaksakal/ToDoList",
+    app: "https://todolist1000.netlify.app/",
+    img: "todolist.jpg",
+  },
+  {
+    type: "react",
+    name: "Courses",
+    github: "https://github.com/yalcinaksakal/react-router-assignment",
+    app: "https://courses100.netlify.app/",
+    img: "courses.jpg",
+  },
+  {
+    type: "react",
+    name: "Users",
+    github: "https://github.com/yalcinaksakal/userList",
+    app: "https://users100.netlify.app/",
+    img: "users.jpg",
+  },
+  {
+    type: "react",
+    name: "Blog",
+    github: "https://github.com/yalcinaksakal/react-fetch",
+    app: "https://blog100.netlify.app/",
+    img: "blog.png",
   },
 
   {
