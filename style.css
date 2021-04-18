@@ -43,7 +43,7 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.main-container i {
+.explanation i {
   font-size: 15px;
 }
 .explanation p {
