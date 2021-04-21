@@ -21,6 +21,13 @@ export const arrProjects = [
   },
   {
     type: "react",
+    name: "Movies",
+    github: "https://github.com/yalcinaksakal/starwars",
+    app: "https://movies100.netlify.app/",
+    img: "movies.jpg",
+  },
+  {
+    type: "react",
     name: "Expenses",
     github: "https://github.com/yalcinaksakal/expenses",
     app: "https://expenses100.netlify.app/",
