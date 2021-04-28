@@ -8,7 +8,7 @@ export const arrProjects = [
     img: "burger.jpg",
   },
   {
-    type: "react",
+    type: "redux",
     name: "Redux Example",
     github: "https://github.com/yalcinaksakal/redux-demo",
     app: "https://reduxtoolkitexample.netlify.app/",

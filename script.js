@@ -35,6 +35,7 @@ function generateEls() {
       iEl.classList.add("fab", "fa-js-square");
       iEl.style.color = "#cbb61b";
     }
+
     const aProjctEl = document.createElement("a");
     aProjctEl.setAttribute("href", project.github);
     aProjctEl.setAttribute("target", "_blank");
@@ -43,8 +44,16 @@ function generateEls() {
     pEl.textContent = project.name;
     const pNameEl = document.createElement("div");
     pNameEl.classList.add("project-name");
-    pNameEl.append(aProjctEl, pEl);
-
+    pNameEl.appendChild(aProjctEl);
+    if (project.type === "redux") {
+      const reduxLogo = document.createElement("img");
+      reduxLogo.setAttribute("src", "./imgs/reduxLogo1.png");
+      reduxLogo.setAttribute("alt", "redux");
+      reduxLogo.style.width = "17px";
+      reduxLogo.style.padding = "0 5px ";
+      pNameEl.appendChild(reduxLogo);
+    }
+    pNameEl.appendChild(pEl);
     //project-photo
 
     //create spining loader div as a placeholder until images loaded
