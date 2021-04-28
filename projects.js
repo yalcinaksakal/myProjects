@@ -1,6 +1,20 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "react",
+    name: "Burger",
+    github: "https://github.com/yalcinaksakal/MealOrder",
+    app: "https://github.com/yalcinaksakal/Burger-react",
+    img: "burger.jpg",
+  },
+  {
+    type: "react",
+    name: "Redux Example",
+    github: "https://github.com/yalcinaksakal/redux-demo",
+    app: "https://reduxtoolkitexample.netlify.app/",
+    img: "redux.jpg",
+  },
+  {
     name: "Dijkstra",
     github: "https://github.com/yalcinaksakal/dijkstra",
     app: "https://yalcinaksakal.github.io/dijkstra/",
