@@ -3,8 +3,8 @@ export const arrProjects = [
   {
     type: "react",
     name: "Burger",
-    github: "https://github.com/yalcinaksakal/MealOrder",
-    app: "https://github.com/yalcinaksakal/Burger-react",
+    github: "https://github.com/yalcinaksakal/Burger-react",
+    app: "https://burger100.netlify.app/",
     img: "burger.jpg",
   },
   {
