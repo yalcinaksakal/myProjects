@@ -9,6 +9,13 @@ export const arrProjects = [
   },
   {
     type: "redux",
+    name: "Redux Toolkit Ex",
+    github: "https://github.com/yalcinaksakal/reduxToolkit",
+    app: "https://redux-toolkit-async.netlify.app/",
+    img: "toolkit.jpg",
+  },
+  {
+    type: "redux",
     name: "Redux Example",
     github: "https://github.com/yalcinaksakal/redux-demo",
     app: "https://reduxtoolkitexample.netlify.app/",
