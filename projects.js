@@ -2,6 +2,13 @@
 export const arrProjects = [
   {
     type: "react",
+    name: "Quote App",
+    github: "https://github.com/yalcinaksakal/react-router-demo",
+    app: "https://greatquotes100.netlify.app/",
+    img: "router2.jpg",
+  },
+  {
+    type: "react",
     name: "Burger",
     github: "https://github.com/yalcinaksakal/Burger-react",
     app: "https://burger100.netlify.app/",
@@ -32,6 +39,13 @@ export const arrProjects = [
     github: "https://github.com/yalcinaksakal/Tree",
     app: "https://yalcinaksakal.github.io/Tree/",
     img: "tree.png",
+  },
+  {
+    type: "react",
+    name: "React router ex",
+    github: "https://github.com/yalcinaksakal/withRouter",
+    app: "https://react-router100.netlify.app/",
+    img: "reactRouter.jpg",
   },
   {
     type: "react",
