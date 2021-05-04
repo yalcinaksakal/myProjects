@@ -8,7 +8,7 @@ export const arrProjects = [
     img: "meetups.jpg",
   },
   {
-    type: "react",
+    type: "react-router",
     name: "Quote App",
     github: "https://github.com/yalcinaksakal/react-router-demo",
     app: "https://greatquotes100.netlify.app/",

@@ -47,11 +47,11 @@ function generateEls() {
     const pNameEl = document.createElement("div");
     pNameEl.classList.add("project-name");
     pNameEl.appendChild(aProjctEl);
-    if (["redux", "next"].includes(project.type)) {
+    if (["redux", "next", "react-router"].includes(project.type)) {
       const libraryUsed = document.createElement("img");
       libraryUsed.setAttribute("src", `./imgs/${project.type}Logo.png`);
       libraryUsed.setAttribute("alt", project.type);
-      libraryUsed.style.width = project.type === "redux" ? "17px" : "20px";
+      libraryUsed.style.width = project.type === "redux" ? "20px" : "30px";
       libraryUsed.style.padding = "0 5px ";
       pNameEl.appendChild(libraryUsed);
     }
