@@ -41,7 +41,7 @@ body {
   font-size: 35px;
   user-select: none;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .explanation i {
   font-size: 15px;
@@ -70,7 +70,7 @@ body {
   z-index: 10;
   display: inline;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .bar1,
@@ -123,7 +123,7 @@ body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
   transform: translateX(-100vw);
-  transition: all 0.1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transition-delay: 0.2s;
   overflow-y: auto;
 }
@@ -155,7 +155,7 @@ body {
   padding: 3px;
   margin: 0;
   width: 48%;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .nav-items li a {
@@ -225,7 +225,7 @@ body {
   width: 100%;
   height: auto;
   transform: scale(1.25);
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 
 .project-photo img:hover {
@@ -248,7 +248,7 @@ body {
   font-size: 30px;
   cursor: pointer;
   margin-right: 5px;
-  transition: all 0.3s;
+  transition: all 0.2s;
 }
 .fab:hover {
   filter: brightness(120%);
@@ -292,7 +292,7 @@ p {
   padding: 3px;
   width: 30px;
   height: 30px;
-  animation: spin 3s linear infinite;
+  animation: spin 2s linear infinite;
 }
 .project-photo:hover .loader {
   filter: brightness(120%);
