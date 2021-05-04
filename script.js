@@ -19,7 +19,9 @@ function generateEls() {
     const aEl = document.createElement("a");
     aEl.setAttribute("href", project.app);
     aEl.setAttribute("target", "_blank");
-    aEl.textContent = `${project.name}${project.type ? " (React)" : ""}`;
+    aEl.textContent = `${project.name}${
+      project.type ? ` (${project.type})` : ""
+    }`;
     const liEl = document.createElement("li");
     liEl.appendChild(aEl);
     navItems.appendChild(liEl);
