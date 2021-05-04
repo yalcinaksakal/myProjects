@@ -45,13 +45,13 @@ function generateEls() {
     const pNameEl = document.createElement("div");
     pNameEl.classList.add("project-name");
     pNameEl.appendChild(aProjctEl);
-    if (project.type === "redux") {
-      const reduxLogo = document.createElement("img");
-      reduxLogo.setAttribute("src", "./imgs/reduxLogo1.png");
-      reduxLogo.setAttribute("alt", "redux");
-      reduxLogo.style.width = "17px";
-      reduxLogo.style.padding = "0 5px ";
-      pNameEl.appendChild(reduxLogo);
+    if (["redux", "next"].includes(project.type)) {
+      const libraryUsed = document.createElement("img");
+      libraryUsed.setAttribute("src", `./imgs/${project.type}Logo.png`);
+      libraryUsed.setAttribute("alt", project.type);
+      libraryUsed.style.width = project.type === "redux" ? "17px" : "20px";
+      libraryUsed.style.padding = "0 5px ";
+      pNameEl.appendChild(libraryUsed);
     }
     pNameEl.appendChild(pEl);
     //project-photo
