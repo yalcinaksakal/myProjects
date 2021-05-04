@@ -48,7 +48,7 @@ export const arrProjects = [
     img: "tree.png",
   },
   {
-    type: "react",
+    type: "react-router",
     name: "React router ex",
     github: "https://github.com/yalcinaksakal/withRouter",
     app: "https://react-router100.netlify.app/",
