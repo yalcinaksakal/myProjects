@@ -1,11 +1,18 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
-    type: "next",
+    type: "nextJS",
     name: "Meetups",
     github: "https://github.com/yalcinaksakal/nextJS-2",
     app: "https://next-js-2-tan.vercel.app/",
     img: "meetups.jpg",
+  },
+  {
+    type: "nextJS",
+    name: "Quote App",
+    github: "https://github.com/yalcinaksakal/quoteNextJS",
+    app: "https://quote-next-js.vercel.app/",
+    img: "router2.jpg",
   },
   {
     type: "react-router",
