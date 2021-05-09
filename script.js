@@ -47,7 +47,9 @@ function generateEls() {
     const pNameEl = document.createElement("div");
     pNameEl.classList.add("project-name");
     pNameEl.appendChild(aProjctEl);
-    if (["redux", "nextJS", "react-router"].includes(project.type)) {
+    if (
+      ["redux", "nextJS", "react-router", "redux&nextJS"].includes(project.type)
+    ) {
       const libraryUsed = document.createElement("img");
       libraryUsed.setAttribute("src", `./imgs/${project.type}Logo.png`);
       libraryUsed.setAttribute("alt", project.type);
