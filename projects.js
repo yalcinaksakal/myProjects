@@ -36,6 +36,13 @@ export const arrProjects = [
     img: "burger.jpg",
   },
   {
+    type: "react",
+    name: "Animations",
+    github: "https://github.com/yalcinaksakal/reactAnimations",
+    app: "https://animations100.netlify.app/",
+    img: "animations.jpg",
+  },
+  {
     type: "redux",
     name: "Redux Toolkit Ex",
     github: "https://github.com/yalcinaksakal/reduxToolkit",
