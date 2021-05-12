@@ -51,6 +51,13 @@ export const arrProjects = [
     img: "customStore.jpg",
   },
   {
+    type: "react",
+    name: "Testing a react app ",
+    github: "https://github.com/yalcinaksakal/react-testing",
+    app: "https://github.com/yalcinaksakal/react-testing",
+    img: "testing.jpg",
+  },
+  {
     type: "redux",
     name: "Redux Toolkit Ex",
     github: "https://github.com/yalcinaksakal/reduxToolkit",
