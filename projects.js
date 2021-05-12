@@ -43,6 +43,14 @@ export const arrProjects = [
     img: "animations.jpg",
   },
   {
+    type: "react",
+    name: "Custom store(not redux)",
+    github:
+      "https://github.com/yalcinaksakal/custom-Store-instead-of-Context-API-or-Redux",
+    app: "https://custom-store.netlify.app/",
+    img: "customStore.jpg",
+  },
+  {
     type: "redux",
     name: "Redux Toolkit Ex",
     github: "https://github.com/yalcinaksakal/reduxToolkit",
