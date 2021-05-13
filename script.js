@@ -14,12 +14,13 @@ function toggleNav() {
 }
 
 function generateEls() {
-  arrProjects.forEach(project => {
+  const numberOfProjects = arrProjects.length;
+  arrProjects.forEach((project, index) => {
     //create nav items
     const aEl = document.createElement("a");
     aEl.setAttribute("href", project.app);
     aEl.setAttribute("target", "_blank");
-    aEl.textContent = `${project.name}${
+    aEl.textContent = `${numberOfProjects - index }- ${project.name}${
       project.type ? ` (${project.type})` : ""
     }`;
     const liEl = document.createElement("li");
