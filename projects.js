@@ -1,25 +1,34 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "nextJS",
+    name: "Quote App",
+    github: "https://github.com/yalcinaksakal/quoteNextJS",
+    app: "https://quote-next-js.vercel.app/",
+    img: "router2.jpg",
+  },
+  {
     type: "redux&nextJS",
     name: "Authentication",
     github: "https://github.com/yalcinaksakal/authNext",
     app: "https://auth-next-rose.vercel.app/",
     img: "auth.jpg",
   },
+
+  {
+    type: "TS",
+    name: "Todo List",
+    github: "https://github.com/yalcinaksakal/typeScriptReact",
+    app: "https://typescript-react100.netlify.app/",
+    img: "todos.jpg",
+  },
+
   {
     type: "nextJS",
     name: "Meetups",
     github: "https://github.com/yalcinaksakal/nextJS-2",
     app: "https://next-js-2-tan.vercel.app/",
     img: "meetups.jpg",
-  },
-  {
-    type: "nextJS",
-    name: "Quote App",
-    github: "https://github.com/yalcinaksakal/quoteNextJS",
-    app: "https://quote-next-js.vercel.app/",
-    img: "router2.jpg",
   },
   {
     type: "react-router",

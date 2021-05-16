@@ -20,7 +20,7 @@ function generateEls() {
     const aEl = document.createElement("a");
     aEl.setAttribute("href", project.app);
     aEl.setAttribute("target", "_blank");
-    aEl.textContent = `${numberOfProjects - index }- ${project.name}${
+    aEl.textContent = `${numberOfProjects - index}- ${project.name}${
       project.type ? ` (${project.type})` : ""
     }`;
     const liEl = document.createElement("li");
@@ -49,12 +49,16 @@ function generateEls() {
     pNameEl.classList.add("project-name");
     pNameEl.appendChild(aProjctEl);
     if (
-      ["redux", "nextJS", "react-router", "redux&nextJS"].includes(project.type)
+      ["redux", "nextJS", "react-router", "redux&nextJS", "TS"].includes(
+        project.type
+      )
     ) {
       const libraryUsed = document.createElement("img");
       libraryUsed.setAttribute("src", `./imgs/${project.type}Logo.png`);
       libraryUsed.setAttribute("alt", project.type);
-      libraryUsed.style.width = project.type === "redux" ? "20px" : "30px";
+      libraryUsed.style.width = ["redux", "TS"].includes(project.type)
+        ? "20px"
+        : "30px";
       libraryUsed.style.padding = "0 5px ";
       pNameEl.appendChild(libraryUsed);
     }
