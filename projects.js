@@ -67,6 +67,13 @@ export const arrProjects = [
     img: "testing.jpg",
   },
   {
+    type: "react",
+    name: "Hooks exercise",
+    github: "https://github.com/yalcinaksakal/hooksExercise",
+    app: "https://hooks-execise.netlify.app/",
+    img: "hooks.jpg",
+  },
+  {
     type: "redux",
     name: "Redux Toolkit Ex",
     github: "https://github.com/yalcinaksakal/reduxToolkit",
