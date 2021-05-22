@@ -24,7 +24,7 @@ export const arrProjects = [
   },
 
   {
-    type: "nextJS",
+    type: "redux&nextJS",
     name: "Meetups",
     github: "https://github.com/yalcinaksakal/nextJS-2",
     app: "https://next-js-2-tan.vercel.app/",
