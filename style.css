@@ -173,9 +173,12 @@ body {
 /* ------------------------------ */
 /* Prjects */
 .projects {
-  width: 85%;
-  height: 75vh;
-  margin: 80px auto 5px auto;
+  position: fixed;
+  top: 120px;
+  left: 5%;
+  width: 90%;
+  height: calc(100vh - 150px);
+  margin: 0 auto;
   background: rgba(230, 230, 230, 0.9);
   box-shadow: 0 10px 20px 5px rgb(41, 41, 41);
   border-radius: 15px;

@@ -150,6 +150,13 @@ export const arrProjects = [
   },
   {
     type: "react",
+    name: "Monsters ",
+    github: "https://github.com/yalcinaksakal/monsters",
+    app: "https://monsters.vercel.app/",
+    img: "monsters.png",
+  },
+  {
+    type: "react",
     name: "Users",
     github: "https://github.com/yalcinaksakal/userList",
     app: "https://users100.netlify.app/",
