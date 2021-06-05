@@ -343,6 +343,9 @@ p {
   }
 }
 @media screen and (max-width: 525px) {
+  .projects {
+    height: calc(100vh - 200px);
+  }
   .projects-showcase li {
     width: 90%;
     margin: 10px 5px;
