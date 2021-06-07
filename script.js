@@ -33,7 +33,10 @@ function generateEls() {
     const iEl = document.createElement("i");
     if (project.type) {
       iEl.classList.add("fab", "fa-react");
-      project.passive&& iEl.classList.add("passive");
+      if (project.passive) {
+        iEl.classList.add("passive");
+        iEl.title = "Private github project";
+      }
       iEl.style.color = "dodgerblue";
     } else {
       iEl.classList.add("fab", "fa-js-square");
