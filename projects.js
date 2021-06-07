@@ -6,6 +6,7 @@ export const arrProjects = [
     github: "https://github.com/yalcinaksakal/Progress",
     app: "https://progress-silk.vercel.app/",
     img: "progress.png",
+    passive: true,
   },
   {
     type: "nextJS",

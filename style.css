@@ -258,6 +258,10 @@ body {
   transform: scale(1.5);
 }
 
+.passive {
+  color: gray !important;
+}
+
 p {
   color: black;
   letter-spacing: 1px;
