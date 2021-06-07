@@ -1,6 +1,13 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "redux&nextJS",
+    name: "Sign in/up/keep logged in",
+    github: "https://github.com/yalcinaksakal/Progress",
+    app: "https://progress-silk.vercel.app/",
+    img: "progress.png",
+  },
+  {
     type: "nextJS",
     name: "Quote App",
     github: "https://github.com/yalcinaksakal/quoteNextJS",
