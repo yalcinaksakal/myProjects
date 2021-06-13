@@ -1,6 +1,14 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "all",
+    name: "Toys e-commerce site",
+    github: "https://github.com/yalcinaksakal/toys",
+    app: "https://toys-sepia.vercel.app/",
+    img: "toys.png",
+    passive: true,
+  },
+  {
     type: "redux&nextJS",
     name: "Sign in/up/keep logged in",
     github: "https://github.com/yalcinaksakal/Progress",
