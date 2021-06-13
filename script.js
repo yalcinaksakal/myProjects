@@ -62,8 +62,6 @@ function generateEls() {
       libraryUsed.setAttribute("alt", project.type);
       libraryUsed.style.width = ["redux", "TS"].includes(project.type)
         ? "20px"
-        : project.type === "all"
-        ? "40px"
         : "30px";
       libraryUsed.style.padding = "0 5px ";
       pNameEl.appendChild(libraryUsed);
