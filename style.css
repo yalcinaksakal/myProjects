@@ -230,13 +230,32 @@ body {
   transform: scale(1.25);
   transition: all 0.2s;
 }
-
+.projectLink {
+  position: relative;
+}
+.projectLink p {
+  z-index: 100;
+  /* background: transparent !important; */
+  color: black;
+  position: absolute;
+  cursor: pointer;
+  bottom: -15px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background: white;
+  font-size: 10px;
+  opacity: 0;
+}
 .project-photo img:hover {
   filter: brightness(110%);
   transform: scale(1.1);
   opacity: 1;
 }
-
+.project-photo:hover #paragraph {
+  opacity: 1;
+}
 /* ------------------------------ */
 /* github icon */
 .project-name {

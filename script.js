@@ -47,6 +47,7 @@ function generateEls() {
     aProjctEl.setAttribute("href", project.github);
     aProjctEl.setAttribute("target", "_blank");
     aProjctEl.appendChild(iEl);
+
     const pEl = document.createElement("p");
     pEl.textContent = project.name;
     const pNameEl = document.createElement("div");
@@ -74,12 +75,20 @@ function generateEls() {
     div.classList.add(`observe`);
 
     const aForImgEL = document.createElement("a");
+    aForImgEL.classList.add("projectLink");
     aForImgEL.setAttribute("href", project.app);
     aForImgEL.setAttribute("target", "_blank");
     aForImgEL.appendChild(div);
+    const paragraphEl = document.createElement("p");
+    // paragraphEl.classList.add("paragraph");
+    paragraphEl.id = "paragraph";
+    paragraphEl.innerText = "Click to visit";
+    aForImgEL.appendChild(paragraphEl);
+
     const figureEl = document.createElement("figure");
     figureEl.classList.add("project-photo");
     figureEl.appendChild(aForImgEL);
+
     //projects li element
     const liPhotoEl = document.createElement("li");
     liPhotoEl.append(pNameEl, figureEl);
