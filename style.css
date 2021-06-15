@@ -364,6 +364,9 @@ p {
   .projects-showcase li {
     width: 45%;
   }
+  #paragraph {
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 525px) {
   .projects {
