@@ -5,8 +5,7 @@ export const arrProjects = [
     name: "Toys e-commerce site",
     github: "https://github.com/yalcinaksakal/toys",
     app: "https://toys-sepia.vercel.app/",
-    img: "toys.png",
-    passive: true,
+    img: "toys.png"
   },
   {
     type: "redux&nextJS",
