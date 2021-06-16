@@ -118,18 +118,18 @@ body {
   position: fixed;
   z-index: 9;
   top: 0;
-  left: 0;
+  left: -100vw;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.9);
-  transform: translateX(-100vw);
+  /* transform: translateX(-100vw); */
   transition: all 0.2s ease-in-out;
   transition-delay: 0.2s;
   overflow-y: auto;
 }
 
 .overlay-slide-right {
-  transform: translateX(0);
+  transform: translateX(100vw);
 }
 
 /* ------------------------------ */
