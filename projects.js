@@ -2,10 +2,17 @@
 export const arrProjects = [
   {
     type: "all",
+    name: "Incsub task",
+    github: "https://github.com/yalcinaksakal/IncsubTask",
+    app: "https://incsub-task.vercel.app/",
+    img: "task.png",
+  },
+  {
+    type: "all",
     name: "Toys e-commerce site",
     github: "https://github.com/yalcinaksakal/toys",
     app: "https://toys-sepia.vercel.app/",
-    img: "toys.png"
+    img: "toys.png",
   },
   {
     type: "redux&nextJS",
