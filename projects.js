@@ -1,6 +1,13 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "react",
+    name: "3d Body, react-three-fiber",
+    github: "https://github.com/yalcinaksakal/3dbody",
+    app: "https://3dbody-1god13aim-yalcinaksakal.vercel.app/",
+    img: "body.jpg",
+  },
+  {
     type: "all",
     name: "Incsub task",
     github: "https://github.com/yalcinaksakal/IncsubTask",
