@@ -37,11 +37,11 @@ export const arrProjects = [
     img: "router2.jpg",
   },
   {
-    type: "redux&nextJS",
-    name: "Authentication",
-    github: "https://github.com/yalcinaksakal/authNext",
-    app: "https://auth-next-rose.vercel.app/",
-    img: "auth.jpg",
+    type: "react",
+    name: "Burger",
+    github: "https://github.com/yalcinaksakal/Burger-react",
+    app: "https://burger100.netlify.app/",
+    img: "burger.jpg",
   },
 
   {
@@ -66,12 +66,13 @@ export const arrProjects = [
     app: "https://greatquotes100.netlify.app/",
     img: "router2.jpg",
   },
+
   {
-    type: "react",
-    name: "Burger",
-    github: "https://github.com/yalcinaksakal/Burger-react",
-    app: "https://burger100.netlify.app/",
-    img: "burger.jpg",
+    type: "redux&nextJS",
+    name: "Authentication",
+    github: "https://github.com/yalcinaksakal/authNext",
+    app: "https://auth-next-rose.vercel.app/",
+    img: "auth.jpg",
   },
   {
     type: "react",
