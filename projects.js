@@ -1,6 +1,13 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "all",
+    name: "My LeetCode",
+    github: "https://github.com/yalcinaksakal/myLeetCode",
+    app: "https://myleetcode.vercel.app/",
+    img: "leetcode.png",
+  },
+  {
     type: "react",
     name: "3d Body, react-three-fiber",
     github: "https://github.com/yalcinaksakal/3dbody",
