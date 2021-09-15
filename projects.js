@@ -9,10 +9,10 @@ export const arrProjects = [
   },
   {
     type: "react",
-    name: "3d Body, react-three-fiber",
-    github: "https://github.com/yalcinaksakal/3dbody",
-    app: "https://3dbody-1god13aim-yalcinaksakal.vercel.app/",
-    img: "body.jpg",
+    name: "three.js&React",
+    github: "https://github.com/yalcinaksakal/three.js",
+    app: "https://three-js-jet.vercel.app/",
+    img: "three.png",
   },
   {
     type: "all",
@@ -49,6 +49,13 @@ export const arrProjects = [
     github: "https://github.com/yalcinaksakal/Burger-react",
     app: "https://burger100.netlify.app/",
     img: "burger.jpg",
+  },
+  {
+    type: "react",
+    name: "3d Body, react-three-fiber",
+    github: "https://github.com/yalcinaksakal/3dbody",
+    app: "https://3dbody-1god13aim-yalcinaksakal.vercel.app/",
+    img: "body.jpg",
   },
 
   {
