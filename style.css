@@ -216,13 +216,16 @@ body {
   width: 100%;
   overflow: hidden;
   background-color: rgb(145, 145, 145);
-  box-shadow: 0 2px 5px 2px rgb(41, 41, 41);
+
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 130px;
+  transition: all ease 0.2s;
 }
-
+.project-photo:hover {
+  box-shadow: 0 2px 5px 2px rgb(41, 41, 41);
+}
 .project-photo img {
   opacity: 0.6;
   width: 100%;
@@ -395,6 +398,9 @@ p {
   }
   .main-container h1 {
     font-size: 20px;
+  }
+  .project-photo {
+    box-shadow: 0 2px 5px 2px rgb(41, 41, 41);
   }
   .project-photo img {
     filter: brightness(110%);
