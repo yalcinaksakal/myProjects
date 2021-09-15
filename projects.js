@@ -8,11 +8,11 @@ export const arrProjects = [
     img: "leetcode.png",
   },
   {
-    type: "react",
+    type: "three",
     name: "three.js&React",
     github: "https://github.com/yalcinaksakal/three.js",
     app: "https://three-js-jet.vercel.app/",
-    img: "three.png",
+    img: "threeJS.png",
   },
   {
     type: "all",

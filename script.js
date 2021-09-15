@@ -58,9 +58,15 @@ function generateEls() {
     pNameEl.classList.add("project-name");
     pNameEl.appendChild(aProjctEl);
     if (
-      ["redux", "nextJS", "react-router", "redux&nextJS", "TS", "all"].includes(
-        project.type
-      )
+      [
+        "redux",
+        "nextJS",
+        "react-router",
+        "redux&nextJS",
+        "TS",
+        "all",
+        "three",
+      ].includes(project.type)
     ) {
       const libraryUsed = document.createElement("img");
       libraryUsed.setAttribute("src", `./imgs/${project.type}Logo.png`);
