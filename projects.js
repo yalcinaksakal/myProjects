@@ -9,7 +9,7 @@ export const arrProjects = [
   },
   {
     type: "three",
-    name: "three.js&React",
+    name: "Space",
     github: "https://github.com/yalcinaksakal/three.js",
     app: "https://three-js-jet.vercel.app/",
     img: "threeJS.png",
