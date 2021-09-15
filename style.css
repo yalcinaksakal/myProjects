@@ -102,9 +102,6 @@ body {
 .menu-bars:hover {
   transform: scale(1.1);
 }
-.main-container h1:hover > a {
-  color: rgb(17, 235, 24);
-}
 
 .menu-bars:hover > .bar1,
 .menu-bars:hover > .bar2,
