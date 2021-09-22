@@ -9,10 +9,10 @@ export const arrProjects = [
   },
   {
     type: "three",
-    name: "Space",
-    github: "https://github.com/yalcinaksakal/three.js",
-    app: "https://three-js-jet.vercel.app/",
-    img: "threeJS.png",
+    name: "Space Game",
+    github: "https://github.com/yalcinaksakal/space2",
+    app: "https://space2.vercel.app/",
+    img: "game.png",
   },
   {
     type: "all",
@@ -49,6 +49,13 @@ export const arrProjects = [
     github: "https://github.com/yalcinaksakal/Burger-react",
     app: "https://burger100.netlify.app/",
     img: "burger.jpg",
+  },
+  {
+    type: "three",
+    name: "Space",
+    github: "https://github.com/yalcinaksakal/three.js",
+    app: "https://three-js-jet.vercel.app/",
+    img: "threeJS.png",
   },
   {
     type: "react",
