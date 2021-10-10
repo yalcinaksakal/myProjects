@@ -52,6 +52,13 @@ export const arrProjects = [
   },
   {
     type: "three",
+    name: "Terrain",
+    github: "https://github.com/yalcinaksakal/terrain",
+    app: "https://terrain-h64iac4dr-yalcinaksakal.vercel.app/",
+    img: "terrain.png",
+  },
+  {
+    type: "three",
     name: "Space",
     github: "https://github.com/yalcinaksakal/three.js",
     app: "https://three-js-jet.vercel.app/",
