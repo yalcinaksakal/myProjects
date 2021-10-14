@@ -1,6 +1,14 @@
 //generate this using readFile.js
 export const arrProjects = [
   {
+    type: "three",
+    name: "Body parts",
+    github: "https://github.com/yalcinaksakal/body2",
+    app: "https://body2.vercel.app/",
+    img: "body2.png",
+    passive: true,
+  },
+  {
     type: "all",
     name: "My LeetCode",
     github: "https://github.com/yalcinaksakal/myLeetCode",
