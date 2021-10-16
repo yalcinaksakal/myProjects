@@ -73,6 +73,18 @@ export const arrProjects = [
     img: "threeJS.png",
   },
   {
+    name: "Dijkstra",
+    github: "https://github.com/yalcinaksakal/dijkstra",
+    app: "https://yalcinaksakal.github.io/dijkstra/",
+    img: "dijkstra.png",
+  },
+  {
+    name: "Tree",
+    github: "https://github.com/yalcinaksakal/Tree",
+    app: "https://yalcinaksakal.github.io/Tree/",
+    img: "tree.png",
+  },
+  {
     type: "react",
     name: "3d Body, react-three-fiber",
     github: "https://github.com/yalcinaksakal/3dbody",
@@ -153,18 +165,7 @@ export const arrProjects = [
     app: "https://reduxtoolkitexample.netlify.app/",
     img: "redux.jpg",
   },
-  {
-    name: "Dijkstra",
-    github: "https://github.com/yalcinaksakal/dijkstra",
-    app: "https://yalcinaksakal.github.io/dijkstra/",
-    img: "dijkstra.png",
-  },
-  {
-    name: "Tree",
-    github: "https://github.com/yalcinaksakal/Tree",
-    app: "https://yalcinaksakal.github.io/Tree/",
-    img: "tree.png",
-  },
+
   {
     type: "react-router",
     name: "React router ex",
