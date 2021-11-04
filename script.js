@@ -23,7 +23,11 @@ function generateEls() {
     aEl.textContent = `${numberOfProjects - index}- ${project.name}${
       project.type
         ? ` (${
-            project.type === "all" ? "redux, typescirpt, next.js" : project.type
+            project.type === "all"
+              ? "redux, typescirpt, next.js"
+              : project.type === "three"
+              ? "three.js"
+              : project.type
           })`
         : ""
     }`;
