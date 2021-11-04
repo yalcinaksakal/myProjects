@@ -2,6 +2,13 @@
 export const arrProjects = [
   {
     type: "three",
+    name: "Maze",
+    github: "https://github.com/yalcinaksakal/maze",
+    app: "https://maze-wheat.vercel.app/",
+    img: "maze.png",
+  },
+  {
+    type: "three",
     name: "Body parts",
     github: "https://github.com/yalcinaksakal/body2",
     app: "https://body2.vercel.app/",
