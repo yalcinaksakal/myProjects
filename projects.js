@@ -2,6 +2,13 @@
 export const arrProjects = [
   {
     type: "three",
+    name: "Airplane 3D seat selector",
+    github: "https://github.com/yalcinaksakal/airPlaneSeatPicker",
+    app: "https://air-plane-seat-picker.vercel.app/",
+    img: "airplane.png",
+  },
+  {
+    type: "three",
     name: "Maze",
     github: "https://github.com/yalcinaksakal/maze",
     app: "https://maze-wheat.vercel.app/",
