@@ -2,6 +2,13 @@
 export const arrProjects = [
   {
     type: "three",
+    name: "Rain or Matrix",
+    github: "https://github.com/yalcinaksakal/matrix-rain",
+    app: "https://matrix-rain-beta.vercel.app/",
+    img: "matrix.png",
+  },
+  {
+    type: "three",
     name: "Airplane 3D seat selector",
     github: "https://github.com/yalcinaksakal/airPlaneSeatPicker",
     app: "https://air-plane-seat-picker.vercel.app/",
