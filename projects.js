@@ -38,6 +38,13 @@ export const arrProjects = [
   },
   {
     type: "three",
+    name: "eGo Mover",
+    github: "https://github.com/yalcinaksakal/eGo",
+    app: "https://e-go.vercel.app/",
+    img: "mover.png",
+  },
+  {
+    type: "three",
     name: "Space Game",
     github: "https://github.com/yalcinaksakal/space2",
     app: "https://space2.vercel.app/",
