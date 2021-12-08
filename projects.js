@@ -65,6 +65,13 @@ export const arrProjects = [
     img: "toys.png",
   },
   {
+    type: "react",
+    name: "Interview tasks",
+    github: "https://github.com/yalcinaksakal/neonious",
+    app: "https://neonious.vercel.app/",
+    img: "n.png",
+  },
+  {
     type: "redux&nextJS",
     name: "Sign in/up/keep logged in",
     github: "https://github.com/yalcinaksakal/Progress",
