@@ -45,7 +45,7 @@ export const arrProjects = [
 	},
 	{
 		type: "three",
-		name: "eGo Mover",
+		name: "Minibus",
 		github: "https://github.com/yalcinaksakal/eGo",
 		app: "https://e-go.vercel.app/",
 		img: "mover.png",
@@ -57,13 +57,7 @@ export const arrProjects = [
 		app: "https://space2.vercel.app/",
 		img: "game.png",
 	},
-	{
-		type: "all",
-		name: "Incsub task",
-		github: "https://github.com/yalcinaksakal/IncsubTask",
-		app: "https://incsub-task.vercel.app/",
-		img: "task.png",
-	},
+
 	{
 		type: "all",
 		name: "Toys e-commerce site",
@@ -71,13 +65,7 @@ export const arrProjects = [
 		app: "https://toys-sepia.vercel.app/",
 		img: "toys.png",
 	},
-	{
-		type: "react",
-		name: "Interview tasks",
-		github: "https://github.com/yalcinaksakal/neonious",
-		app: "https://neonious.vercel.app/",
-		img: "n.png",
-	},
+
 	{
 		type: "redux&nextJS",
 		name: "Sign in/up/keep logged in",
