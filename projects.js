@@ -2,7 +2,7 @@
 export const arrProjects = [
 	{
 		type: "react",
-		name: "Freelancer, SIO interview",
+		name: "Freelancer",
 		github: "https://github.com/yalcinaksakal/freelancer",
 		app: "https://freelancer-beta.vercel.app/",
 		img: "freelancer.png",
